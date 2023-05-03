@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | QR code component</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontSize: {
+            sm: "0.8rem",
+            base: "0.9rem",
+            xl: "1.25rem",
+            "2xl": "1.563rem",
+            "3xl": "1.953rem",
+            "4xl": "2.441rem",
+            "5xl": "3.052rem",
+          },
+          colors: {
+            white: "#ffffff",
+            gray: "#d6e2f0",
+            Gblue: "#7b879d",
+            Dblue: "#1f3251",
+          },
+          extend: {},
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: "Outfit", sans-serif;
+      }
+    </style>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body class="bg-gray">
+    <div class="flex justify-center items-center w-screen h-screen">
+      <div class="bg-white w-80 rounded-lg">
+        <img
+          src="/images/image-qr-code.png"
+          alt=""
+          class="w-72 h-72 rounded-lg m-4"
+        />
+        <h1 class="text-xl text-center font-bold text-Dblue m-4 px-4">
+          Improve your front-end skills by building projects
+        </h1>
+        <p class="m-4 text-gray text-center">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </div>
+
+    <div class="attribution flex justify-center text-center">
+      <div>
+        Challenge by
+        <a
+          class="text-Dblue"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#" class="text-Dblue text-xl">Vivek Kumar</a>.
+      </div>
+    </div>
+  </body>
+</html>
